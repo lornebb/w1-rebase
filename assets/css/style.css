@@ -24,7 +24,7 @@ a {
 }
 
 #home-main {
-  height: 100vh;
+  height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +47,7 @@ a {
 /* -------------------- Hero video Styling */
 
 video {
-  object-fit: cover;
+  object-fit: cover; 
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -59,7 +59,12 @@ video {
 
 #footer {
   /* background-color: #eaeaea; */
-  color: #242424;
+  color: aliceblue;
+  height: 20vh;
+}
+
+#footer a {
+  color: aliceblue;
 }
 
 .social_square_icons ul {
@@ -92,7 +97,7 @@ video {
   font-size: 16px
 }
 
-/* Hover styling for social icons */
+/* ------------------- Hover styling for social icons */
 .f_facebook:hover {
   color: #fff;
   background: #2a66b3;
