@@ -65,7 +65,8 @@ video {
 #band-grid {
   height: 90vh;
   position: static;
-  background-color: #D6D6D6;
+  /* background-color: #D6D6D6; */
+  background-color: rgb(31, 31, 31);
 }
 
 /* -------------------- Footer styling */
