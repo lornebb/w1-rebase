@@ -55,9 +55,6 @@ video {
   left: 0;
 }
 
-
-
-
 /* -------------------- band listing page */
 
 #band-listing-header {
@@ -65,11 +62,18 @@ video {
   background-color: black;
 }
 
+#band-grid {
+  height: 90vh;
+  position: static;
+  background-color: #D6D6D6;
+}
+
 /* -------------------- Footer styling */
 
 #footer {
   /* background-color: #eaeaea; */
   color: aliceblue;
+  background-color: black;
   height: 20vh;
 }
 
