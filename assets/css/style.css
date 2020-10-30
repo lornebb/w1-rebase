@@ -55,6 +55,16 @@ video {
   left: 0;
 }
 
+
+
+
+/* -------------------- band listing page */
+
+#band-listing-header {
+  height: 10vh;
+  background-color: black;
+}
+
 /* -------------------- Footer styling */
 
 #footer {
