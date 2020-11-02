@@ -24,7 +24,8 @@ a {
 }
 
 #home-main {
-  height: 80vh;
+  height: 100vh;
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +34,7 @@ a {
 
 #home-main a {
   color: aliceblue;
+  font-size: 1.3em;
 }
 
 .hero-text {
@@ -50,7 +52,7 @@ video {
   object-fit: cover; 
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -72,10 +74,8 @@ video {
 /* -------------------- Footer styling */
 
 #footer {
-  /* background-color: #eaeaea; */
+  background-color: #292929;
   color: aliceblue;
-  background-color: black;
-  height: 20vh;
 }
 
 #footer a {
@@ -99,7 +99,7 @@ video {
   height: 40px;
   width: 40px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   border: 1px solid #dadadaa8;
 }
 
