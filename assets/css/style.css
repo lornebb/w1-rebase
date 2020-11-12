@@ -9,6 +9,13 @@ body {
 a {
   color: inherit;
   text-decoration: inherit;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 /* h1, h2, h3, h4, h5, h6 {
@@ -39,6 +46,14 @@ h5 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 #logo-container {
@@ -116,6 +131,14 @@ video {
 
 .band-title {
   margin-top: 0.5em;
+  font-size: 2rem;
+}
+
+.one-liner {
+  letter-spacing: 0.215em;
+  line-height: 2.0;
+  font-size: 0.76rem;
+  text-transform: uppercase;
 }
 
 .band-listing-image {
