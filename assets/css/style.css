@@ -15,6 +15,11 @@ a {
   font-weight: normal;
   font-weight: var(--heading-font-weight);
 } */
+/* h1, h2, h3, .h1, .h2, .h3 {
+  font-family: 'ITC Caslon_224';
+  font-weight: 50;
+  line-height: 1.2;
+} */
 
 h2 {
   display: block;
@@ -107,6 +112,10 @@ video {
   color: grey;
   text-transform: uppercase;
   margin-bottom: 1vh;
+}
+
+.band-title {
+  margin-top: 0.5em;
 }
 
 .band-listing-image {
