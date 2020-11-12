@@ -123,7 +123,7 @@ video {
 
 .genre-title {
   letter-spacing: 0.2em;
-  font-size: 1em;
+  font-size: 0.7em;
   color: grey;
   text-transform: uppercase;
   margin-bottom: 1vh;
@@ -158,11 +158,12 @@ video {
   z-index: 1;
   box-sizing: border-box;
   display: block;
+  background-color: rgba(16, 16, 16, 0.6);
 }
 
 .hover-genre {
   border-color: grey;
-  background-color: rgba(16, 16, 16, 0.6);
+  /* background-color: rgba(16, 16, 16, 0.6); */
 }
 
 .genre-text {
