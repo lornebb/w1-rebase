@@ -180,7 +180,12 @@ video {
 .band-title {
   transform: translateY(50%);
   font-weight: 800;
+  position: relative;
   z-index: 1;
+  box-sizing: border-box;
+  display: block;
+  background-color: rgba(16, 16, 16, 0.3);
+
 }
 
 .band-fullsize-box {
@@ -195,8 +200,8 @@ video {
 }
 
 .band-img {
-  width: 200px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   opacity: 1;
   transition: opacity 0.3s ease-in;
