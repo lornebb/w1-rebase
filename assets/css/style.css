@@ -185,7 +185,6 @@ video {
   box-sizing: border-box;
   display: block;
   background-color: rgba(16, 16, 16, 0.3);
-
 }
 
 .band-fullsize-box {
@@ -205,6 +204,14 @@ video {
   object-fit: cover;
   opacity: 1;
   transition: opacity 0.3s ease-in;
+}
+
+.tag-line {
+  font-style: italic;
+}
+.band-about-box {
+  /* width: 66.66667%; */
+  width: 50%;
 }
 
 /* -------------------- Footer styling */
