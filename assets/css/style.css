@@ -110,9 +110,9 @@ video {
   font-size: 1.3em;
 }
 
-#band-grid {
+#dark-background {
   /* height: 90vh; */
-  position: static;
+  /* position: static; */
   /* background-color: #D6D6D6; */
   background-color: rgb(31, 31, 31);
 }
