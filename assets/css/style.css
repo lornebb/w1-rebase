@@ -174,7 +174,29 @@ video {
   padding: 1.1em;
   display: inline-block;
 }
+
+/*  ------------------- Band Page */
+
+.band-title {
+  transform: translateY(50%);
+  font-weight: 800;
+}
+
+.band-fullsize-box {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+
 /* -------------------- Footer styling */
+
 
 #footer {
   opacity: 1;
