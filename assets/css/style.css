@@ -91,6 +91,13 @@ p {
   color: white;
 }
 
+#dark-background {
+  /* height: 90vh; */
+  /* position: static; */
+  /* background-color: #D6D6D6; */
+  background-color: rgb(31, 31, 31);
+}
+
 /* -------------------- Hero video Styling */
 
 video {
@@ -108,13 +115,6 @@ video {
   height: 10vh;
   background-color: black;
   font-size: 1.3em;
-}
-
-#dark-background {
-  /* height: 90vh; */
-  /* position: static; */
-  /* background-color: #D6D6D6; */
-  background-color: rgb(31, 31, 31);
 }
 
 .band-box {
@@ -136,7 +136,7 @@ video {
 
 .one-liner {
   letter-spacing: 0.215em;
-  line-height: 2.0;
+  line-height: 2;
   font-size: 0.76rem;
   text-transform: uppercase;
 }
@@ -180,23 +180,29 @@ video {
 .band-title {
   transform: translateY(50%);
   font-weight: 800;
+  z-index: 1;
 }
 
 .band-fullsize-box {
   overflow: hidden;
   height: 100%;
+  width: 100%;
   position: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: -1;
 }
 
-
+.band-img {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
 
 /* -------------------- Footer styling */
-
 
 #footer {
   opacity: 1;
