@@ -12,6 +12,15 @@ _active pages are [**HOME**](/Users/lorneashley/Desktop/Repos/w1/index.html), [*
 
 ---
 
+## Features yet to be implimented
+
+- About us page
+- Searchable genre tags
+- copy and content for bands
+- full sized band videos for each band listing page
+
+---
+
 ## Home
 
 ### Features
@@ -32,7 +41,7 @@ The roster page lists high res images in a 2 column grid with resposive containe
 
 ### Band feautred page
 
-Users are greated with a full screen image of the act as a hero banner. Then a further two images for further context fo the visual style and presentatino of their performance.
+Users are greated with a full screen image (or video) of the act as a hero banner. Then a further two images for further context fo the visual style and presentatino of their performance.
 
 A short description and further hero image is shown.
 
