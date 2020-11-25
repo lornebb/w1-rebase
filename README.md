@@ -18,6 +18,7 @@ _active pages are [**HOME**](/Users/lorneashley/Desktop/Repos/w1/index.html), [*
 - Searchable genre tags
 - copy and content for bands
 - full sized band videos for each band listing page
+- hosted images for speedy load times (migrate from dropbox)
 
 ---
 
