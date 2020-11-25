@@ -2,7 +2,7 @@ init readme for W1 website build
 
 # W1 Music website
 
-![w1-logo](./assets/img/w1-long-white-logo.png)
+![w1-logo](./assets/img/w1-long-black-logo.png)
 
 ---
 
